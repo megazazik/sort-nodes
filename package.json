@@ -1,0 +1,27 @@
+{
+  "name": "sort-nodes",
+  "version": "0.1.0",
+  "description": "The packege to sort arrays of DOM nodes according to the HTML tree order",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "version": "npm run build && conventional-changelog -p angular -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md",
+    "commit": "git-cz",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "html",
+    "order",
+    "sort",
+    "nodes"
+  ],
+  "author": "megazazik <megazazik@rambler.ru>",
+  "license": "MIT",
+  "devDependencies": {
+    "commitizen": "^4.0.3",
+    "conventional-changelog-cli": "^2.0.23",
+    "cz-conventional-changelog": "^3.0.2",
+    "typescript": "^3.6.3"
+  }
+}
