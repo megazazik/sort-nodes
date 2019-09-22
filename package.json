@@ -23,5 +23,15 @@
     "conventional-changelog-cli": "^2.0.23",
     "cz-conventional-changelog": "^3.0.2",
     "typescript": "^3.6.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/megazazik/sort-nodes.git"
+  },
+  "homepage": "https://github.com/megazazik/sort-nodes",
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
   }
 }
